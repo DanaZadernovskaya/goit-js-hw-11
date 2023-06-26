@@ -1,0 +1,61 @@
+.search-form {
+  text-align: center;
+  background: #0016c6b3;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-form input[type='text'] {
+  padding: 10px;
+  width: 300px;
+  border: 0;
+}
+
+.search-form button {
+  background: url(https://img.icons8.com/ios/50/search--v1.png);
+  background-size: 70% 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0;
+  height: 39px;
+  width: 39px;
+  background-color: white;
+  border: 1px solid;
+  border-width: 0 0 0 1px;
+}
+
+.gallery {
+  height: 90vh;
+  overflow: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card {
+  width: 22%;
+  text-align: center;
+  color: #000;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 14px;
+  text-decoration: none;
+  box-shadow: 0 0 5px #0000004d;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card .description {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+
+  >div {
+    width: 25%;
+  }
+}
